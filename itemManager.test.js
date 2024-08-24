@@ -15,7 +15,7 @@ afterEach(() => {
 // Test case 1: Adding an item to the list
 test('Add item to the list', () => {
   addItem('New Item');
-  expect(getList()).toContain('New Item');
+  expect(getList()).toContain('Wrong assertion');
 });
 
 // Test case 2: Clearing the list
