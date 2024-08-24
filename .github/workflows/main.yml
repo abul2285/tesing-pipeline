@@ -23,3 +23,7 @@ jobs:
 
       - name: Run Jest tests
         run: npm test
+
+      - name: Build command
+        # if: success()
+        run: npm run build
